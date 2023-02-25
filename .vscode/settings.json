@@ -1,3 +1,18 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive"
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "jenkins-runner.jobs": {
+    "ide": {
+      "runWith": "pipelines-7080",
+      "name": "ide",
+      "isDefault": true
+    }
+  },
+  "jenkins-runner.hostConfigs": {
+    "pipelines-7080": {
+      "url": "https://jenkins.zitouna.tech",
+      "user": "admin",
+      "password": "Bigbang#404",
+      "useCrumbIssuer": true
+    }
+  }
 }
